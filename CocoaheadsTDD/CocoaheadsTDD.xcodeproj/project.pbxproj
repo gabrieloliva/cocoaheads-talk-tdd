@@ -89,10 +89,10 @@
 		E7D06E381D6C7CAF0095137A /* CocoaheadsTDD */ = {
 			isa = PBXGroup;
 			children = (
-				E7D06E591D6C7CC00095137A /* Supporting Files */,
-				E7D06E621D6C87A20095137A /* Model */,
-				E7D06E631D6C87AE0095137A /* Manager */,
 				E7D06E6C1D6C97790095137A /* Controller */,
+				E7D06E631D6C87AE0095137A /* Manager */,
+				E7D06E621D6C87A20095137A /* Model */,
+				E7D06E591D6C7CC00095137A /* Supporting Files */,
 				E7D06E6B1D6C97720095137A /* View */,
 			);
 			path = CocoaheadsTDD;
@@ -101,9 +101,9 @@
 		E7D06E4D1D6C7CAF0095137A /* CocoaheadsTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7D06E661D6C944B0095137A /* Model */,
-				E7D06E671D6C94520095137A /* Manager */,
 				E7D06E6A1D6C95600095137A /* Controller */,
+				E7D06E671D6C94520095137A /* Manager */,
+				E7D06E661D6C944B0095137A /* Model */,
 				E7D06E501D6C7CAF0095137A /* Info.plist */,
 			);
 			path = CocoaheadsTDDTests;
@@ -114,10 +114,10 @@
 			children = (
 				E7D06E391D6C7CAF0095137A /* AppDelegate.swift */,
 				E7D06E401D6C7CAF0095137A /* Assets.xcassets */,
-				E7D06E421D6C7CAF0095137A /* LaunchScreen.storyboard */,
 				E7D06E451D6C7CAF0095137A /* Info.plist */,
+				E7D06E421D6C7CAF0095137A /* LaunchScreen.storyboard */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E7D06E621D6C87A20095137A /* Model */ = {
@@ -125,7 +125,7 @@
 			children = (
 				E7D06E5E1D6C81C90095137A /* EventItem.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E7D06E631D6C87AE0095137A /* Manager */ = {
@@ -133,7 +133,7 @@
 			children = (
 				E7D06E641D6C87CA0095137A /* EventManager.swift */,
 			);
-			name = Manager;
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		E7D06E661D6C944B0095137A /* Model */ = {
@@ -141,7 +141,7 @@
 			children = (
 				E7D06E5C1D6C7FEE0095137A /* EventItemTests.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E7D06E671D6C94520095137A /* Manager */ = {
@@ -149,16 +149,16 @@
 			children = (
 				E7D06E601D6C86B80095137A /* EventManagerTests.swift */,
 			);
-			name = Manager;
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		E7D06E6A1D6C95600095137A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E7D06E681D6C955C0095137A /* ItemListViewControllerTests.swift */,
 				E7D06E741D6CB9B50095137A /* ItemListDataProviderTests.swift */,
+				E7D06E681D6C955C0095137A /* ItemListViewControllerTests.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E7D06E6B1D6C97720095137A /* View */ = {
@@ -166,16 +166,16 @@
 			children = (
 				E7D06E3D1D6C7CAF0095137A /* Main.storyboard */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		E7D06E6C1D6C97790095137A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E7D06E6F1D6CAF560095137A /* EventListViewController.swift */,
 				E7D06E721D6CB3070095137A /* EventListDataProvider.swift */,
+				E7D06E6F1D6CAF560095137A /* EventListViewController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +315,7 @@
 				E7D06E3E1D6C7CAF0095137A /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		E7D06E421D6C7CAF0095137A /* LaunchScreen.storyboard */ = {
@@ -323,6 +324,7 @@
 				E7D06E431D6C7CAF0095137A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CocoaheadsTDD/Info.plist;
+				INFOPLIST_FILE = "CocoaheadsTDD/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.gabrieloliva.CocoaheadsTDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CocoaheadsTDD/Info.plist;
+				INFOPLIST_FILE = "CocoaheadsTDD/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.gabrieloliva.CocoaheadsTDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +478,7 @@
 				E7D06E551D6C7CAF0095137A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D06E561D6C7CAF0095137A /* Build configuration list for PBXNativeTarget "CocoaheadsTDDTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +487,7 @@
 				E7D06E581D6C7CAF0095137A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
